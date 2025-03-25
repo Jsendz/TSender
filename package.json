@@ -10,6 +10,7 @@
     "anvil": "anvil --load-state tsender-deployed.json",
     "coverage": "pnpm vitest run --coverage",
     "test:unit": "vitest",
+    "test:cache": "pnpm synpress",
     "test:e2e": "pnpm exec playwright test",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx}\""
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "@playwright/test": "1.48.2",
+    "@synthetixio/synpress": "^4.0.10",
     "@types/node": "^20.12.10",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
