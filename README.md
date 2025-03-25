@@ -4,12 +4,12 @@ A 100% client-side UI for the TSender contract.
 
 - [TSender UI](#tsender-ui)
 - [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-    - [Environment Variables](#environment-variables)
-  - [Setup](#setup)
+    - [Requirements](#requirements)
+        - [Environment Variables](#environment-variables)
+    - [Setup](#setup)
 - [Testing](#testing)
-  - [Unit](#unit)
-  - [e2e](#e2e)
+    - [Unit](#unit)
+    - [e2e](#e2e)
 - [Contributing](#contributing)
 
 # Getting Started
@@ -78,7 +78,7 @@ Error: Cache for 08a20e3c7fc77e6ae298 does not exist. Create it first!
 
 The `08a20e3c7fc77e6ae298` is your `CACHE_NAME`
 
-In your `.cache-synpress` folder, rename the folder that isn't `metamask-chrome-***` to your `CACHE_NAME`. 
+In your `.cache-synpress` folder, rename the folder that isn't `metamask-chrome-***` to your `CACHE_NAME`.
 
 Then, you should be able to run:
 
