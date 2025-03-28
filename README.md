@@ -2,6 +2,8 @@
 
 A 100% client-side UI for the TSender contract.
 
+Smart Contracts: https://github.com/Cyfrin/TSender/
+
 - [TSender UI](#tsender-ui)
 - [Getting Started](#getting-started)
     - [Requirements](#requirements)
