@@ -9,7 +9,7 @@ export default function HomeContent() {
     const { isConnected } = useAccount()
 
     return (
-        <main>
+        <main className="bg-linear-to-r from-cyan-100 via-blue-300 to-indigo-400">
             {!isConnected ? (
                 <div className="flex items-center justify-center">
                     <h2 className="text-xl font-medium text-zinc-600">
