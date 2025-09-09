@@ -15,7 +15,7 @@ export default function RootLayout(props: { children: ReactNode }) {
             <head>
                 <link rel="icon" href="/T-Sender.svg" sizes="any" />
             </head>
-            <body className="bg-zinc-50">
+            <body className="bg-linear-to-r from-cyan-100 via-blue-300 to-indigo-400">
                 <Providers>
                     <Header />
                     {props.children}
